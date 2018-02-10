@@ -96,7 +96,6 @@ def extend_bag_words(bag_words, n_gram=4):
     for i in range(len(bag_words)):
         for j in range(n_gram):
             new.append(bag_words[i]+DNA_characters[j])
-
     return new
 
 two_gram_bag_words = extend_bag_words(DNA_characters)
