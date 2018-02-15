@@ -9,10 +9,10 @@ case $1 in
 		echo "Hint: The first approach uses Python2, the second one uses Python3"
 		;;
 	1)
-		python lr.py
+		python lr_classifier.py
 		;;
 	2)
-		python3 hmm.py
+		python3 prob_classifier.py
 		;;
 	*)
 esac
